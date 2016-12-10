@@ -20,6 +20,7 @@ An attempt at syncing Webstorm and Visual Studio keybindings.
 |Goto Start/End code block  |CTRL + SHIFT + M OR CTRL + ']'   	|CTRL + SHIFT + M OR CTRL + ']'  	|   	|   	|
 |Increase Decrease Font   	|CTRL + Scroll   	                |CTRL + Scroll  	                |   	|   	|
 |Delete Line   	            |CTRL + SHIFT + L   	            |CTRL + SHIFT + L  	                |d,d   	|
+|Refactor                   |CTRL + SHIFT +R    	            |                                   |   	|   	|
 |Extract/Intro Field        |CTRL + R,F    	                    |CTRL + R,F  	                    |   	|   	|
 |Extract/Intro Variable     |CTRL + R,V    	                    |CTRL + R,V  	                    |   	|   	|
 |Extract/Intro Parameter    |CTRL + R,P    	                    |CTRL + R,P  	                    |   	|   	|
@@ -27,10 +28,14 @@ An attempt at syncing Webstorm and Visual Studio keybindings.
 |Extract Interface         	|CTRL + R,I   	                    |CTRL + R,I                       	|   	|   	|
 |Extract Method            	|CTRL + R,M   	                    |CTRL + R,M                        	|   	|   	|
 |Refactor Rename           	|CTRL + R,R   	                    |                                  	|   	|   	|
+|Run Unit Tests             |CTRL + T,R   	                    |                                  	|   	|   	|
+|Debug Unit Tests           |CTRL + T,D   	                    |                                  	|   	|   	|
+|Run All Tests from Sln     |CTRL + T,L   	                    |                                  	|   	|   	|
+|Run Current Test Session   |CTRL + T,Y   	                    |                                  	|   	|   	|
 
 
 ### Notes
-1. Key bindings such as CTRL + A,B are also setup as CTRL + A, CTRL + B so the second control isn't strictly necessary. 
+1. Key bindings such as CTRL + A,B are also bound to CTRL + A, CTRL + B so the second control isn't strictly necessary. 
 2. This currently comes with some of my javascript and typescript live templates 
 3. This is a pretty niche project but if you come across it and have improvements please shoot me a pull request.
 4. If a Keybinding isn't listed it hasn't been changed
