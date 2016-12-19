@@ -9,7 +9,8 @@ An attempt at syncing Webstorm and Visual Studio keybindings.
 ### Keybinds
 |Action      	            | VS  	                            | WS                                | Vim  	|   	|
 |---                	    |---	                            |---	                            |---	|---	|
-|Global Find / Goto Type    | ALT + N	                        |ALT + N  	                        |   	|   	|
+|Go To Terminal             |ALT + F12 (Opens Nuget PM)         |ALT + F12 (Toggles term/editor)   	|   	|   	|
+|Global Find / Goto Type    |ALT + N	                        |ALT + N  	                        |   	|   	|
 |Goto Implementation   	    |CTRL + F12   	                    |CTRL + F12   	                    |   	|   	|
 |Goto Declaration   	    |F12        	                    |F12   	                            |   	|   	|
 |Find Usages        	    |SHIFT + F12   	                    |SHIFT + F12   	                    |   	|   	|
@@ -32,6 +33,9 @@ An attempt at syncing Webstorm and Visual Studio keybindings.
 |Debug Unit Tests           |CTRL + T,D   	                    |                                  	|   	|   	|
 |Run All Tests from Sln     |CTRL + T,L   	                    |                                  	|   	|   	|
 |Run Current Test Session   |CTRL + T,Y   	                    |                                  	|   	|   	|
+|Split Window Vertical      |CTRL + W,V   	                    |CTRL + W,V                        	|   	|   	|
+|Switch Groups              |CTRL + W,W   	                    |CTRL + W,W                        	|   	|   	|
+|Go to Previous             |CTRL + W,P   	                    |CTRL + W,P                        	|   	|   	|
 
 
 ### Notes
